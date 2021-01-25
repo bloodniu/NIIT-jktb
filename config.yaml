@@ -1,0 +1,29 @@
+# -*- coding:UTF-8 -*-
+# Copyright (c) 2020 tx All rights reserved.
+---
+# 学号（必填）
+number : ""
+
+#姓名（必填)
+Name : ""
+
+# 高德 API Key
+amap_key : ""
+
+# Cookie （必填）
+Cookie : ""
+
+# X_CSRF_Token（必填）
+X_CSRF_Token : ""
+
+# 定位省份
+Province_GPS : "省"
+
+# 定位城市
+City_GPS : "市"
+
+# 定位区、县
+District_GPS : "区"
+
+# 定位详细地址
+Detail_GPS : "大学"
