@@ -11,11 +11,11 @@
 # **使用方法**  
 1.环境要求：
 - 一个 24 小时开机的 Linux /windows操作系统（建议阿里云腾讯云学生机）
-- Python 3.x以上，安装有 requests，Pyyaml 库
+- Python 3.x以上，安装有 requests，Pyyaml 库  
 2.数据填写  
-打开config.yaml，填写学号，姓名，高德API KEY，cookie，x_csrf_token，当前所在地  
-打开jktb.py ，填写个人识别码，班级识别码，学院识别码
-3.运行脚本
+打开config.yaml，填写学号，姓名，高德API KEY，cookie，x_csrf_token，当前所在地    
+打开jktb.py ，填写个人识别码，班级识别码，学院识别码  
+3.运行脚本  
 python3 jktb.py
 
 # **config.yaml 数据获取方法**  
