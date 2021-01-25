@@ -27,3 +27,6 @@ python3 jktb.py
 2.找到健康上报页面，点击上报，点击抓到的creta请求，将找到的cookie和x_csrf_toke存放在config.yaml 中  
 
 3.在 Headers 下面找到 Form Data 这就是每次上报提交的信息参数。找到个人识别码_widget_1582448367786，班级识别码_widget_1582448368018，学院识别码_widget_1582699228446  
+
+# **end**  
+仅限个人测试学习python，本人不提供任何形式的技术支持!
