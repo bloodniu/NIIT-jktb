@@ -10,7 +10,7 @@
 邮箱通知功能，修改jktb.py文件对应参数
 # **使用方法**  
 **1.环境要求**  
-- windows操作系统，Linux操作系统，Uinux操作系统
+- windows操作系统，Linux操作系统，Ubuntu操作系统
 - Python 3.x以上，安装有 requests，Pyyaml 库  
  
 **2.数据填写**  
