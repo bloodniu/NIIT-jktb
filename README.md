@@ -15,17 +15,10 @@
  
 **2.数据填写**  
 - 打开config.yaml，填写学号，姓名，高德API KEY，cookie，x_csrf_token，当前所在地      
-- 打开jktb.py ，填写个人识别码xxx，班级识别码yyy，学院识别码zzz  
 
 **3.运行脚本**  
 python3 jktb.py  
-
-# **config.yaml 数据获取方法**  
-1.进入<code> www.jiandaoyun.com</code>，选择企业成员登录自动进入，打开开发者工具（Chrome 可以使用 F12 快捷键），选中 Network 窗口：  
-
-2.找到健康上报页面，点击上报，点击抓到的create请求，将找到的cookie和x_csrf_toke存放在config.yaml 中  
-
-3.在 Headers 下面找到 Form Data 这就是每次上报提交的信息参数。找到个人识别码_widget_1582448367786，班级识别码_widget_1582448368018，学院识别码_widget_1582699228446  
+ 
 
 # **end**  
 仅限个人测试学习python，请在下载后24小时内删除。本人不提供任何形式的技术支持!
