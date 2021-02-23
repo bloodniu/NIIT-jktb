@@ -14,7 +14,7 @@
 - Python 3.x以上，安装有 requests，Pyyaml 库  
  
 **2.数据填写**  
-- 打开config.yaml，填写学号，姓名，高德API KEY，cookie，x_csrf_token，当前所在地      
+- 打开config.yaml，jktb.py 填写空缺内容    
 
 **3.运行脚本**  
 python3 jktb.py  
