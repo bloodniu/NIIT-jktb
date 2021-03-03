@@ -701,23 +701,23 @@ if __name__ == '__main__':
     re = session.post(url_push, headers = header, data = json.dumps(data_push), timeout = 20)
     print(' push data ' + str(re.text))
 
-    #邮件通知系统
-    email_from = "12345@qq.com"             # 改为自己的发送邮箱
-    email_to = email                        # 接收邮箱
-    hostname = "smtp.qq.com"                # 不变，QQ邮箱的smtp服务器地址
-    login = "12345"                         # 发送邮箱的用户名
-    password = "12345343df"                 # 发送邮箱的密码，即开启smtp服务得到的授权码。注：不是QQ密码。
-    subject = format_date_1 + '健康填报通知'  # 邮件主题
-    text = (' push data ' + str(re.text))   # 邮件正文内容
+    #邮件通知系统去#号开启邮件系统
+    #email_from = "12345@qq.com"             # 改为自己的发送邮箱
+    #email_to = email                        # 接收邮箱
+    #hostname = "smtp.qq.com"                # 不变，QQ邮箱的smtp服务器地址
+    #login = "12345"                         # 发送邮箱的用户名
+    #password = "12345343df"                 # 发送邮箱的密码，即开启smtp服务得到的授权码。注：不是QQ密码。
+    #subject = format_date_1 + '健康填报通知'  # 邮件主题
+    #text = (' push data ' + str(re.text))   # 邮件正文内容
 
-    smtp = SMTP_SSL(hostname)               # SMTP_SSL默认使用465端口
-    smtp.login(login, password)
+    #smtp = SMTP_SSL(hostname)               # SMTP_SSL默认使用465端口
+    #smtp.login(login, password)
 
-    msg = MIMEText(text, "plain", "utf-8")
-    msg["Subject"] = Header(subject, "utf-8")
-    msg["from"] = email_from
-    msg["to"] = email_to
+    #msg = MIMEText(text, "plain", "utf-8")
+    #msg["Subject"] = Header(subject, "utf-8")
+    #msg["from"] = email_from
+    #msg["to"] = email_to
 
-    smtp.sendmail(email_from, email_to, msg.as_string())
-    smtp.quit()
-    print("健康填报邮件通知已发送")
+    #smtp.sendmail(email_from, email_to, msg.as_string())
+    #smtp.quit()
+    #print("健康填报邮件通知已发送")
