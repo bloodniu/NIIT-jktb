@@ -14,7 +14,7 @@
 - Python 3.x以上，安装有 requests，Pyyaml 库  
  
 **2.数据填写**  
-- 打开config.yaml，jktb.py 填写空缺内容    
+- 打开config.yaml，jktb.py 填写空缺内容   个人识别码，班级识别码，学院识别码 
 
 **3.运行脚本**  
 python3 jktb.py  
