@@ -10,11 +10,12 @@
 邮箱通知功能，修改jktb.py文件对应参数
 # **使用方法**  
 **1.环境要求**  
-- windows操作系统，Linux操作系统，Ubuntu操作系统
+- windows操作系统，Linux操作系统，Ubuntu操作系统，ios操作系统（Pythonista）
 - Python 3.x以上，安装有 requests，Pyyaml 库  
  
 **2.数据填写**  
-- 打开config.yaml，jktb.py 填写空缺内容   个人识别码，班级识别码，学院识别码 
+- 打开config.yaml，填写学号，姓名，高德API,Cookie，X_CSRF_Token，定位地址  
+- 打开jktb.py 填写空缺内容   个人识别码，班级识别码，学院识别码 
 
 **3.运行脚本**  
 python3 jktb.py  
