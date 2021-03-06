@@ -19,12 +19,37 @@
 
 **3.数据获取**  
 - 高德开放平台，Web服务API  
-- Cookie,X_CSRF_Token,谷歌浏览器登陆网站https://www.jiandaoyun.com,F12开发者模式Network，下方获取
-- 识别码请自行通过抓包软件获取最后的create，涉及隐私，请勿泄露。  
+- Cookie,X_CSRF_Token
+- 自行通过抓包软件获取最后的create，涉及隐私，请勿泄露，测试后及时删除。  
 
 **4.运行脚本**  
 python3 jktb.py  
- 
+<pre><span class="pl-k">~</span> python3 jktb.py
+INFO:root: <span class="pl-k">**</span> Get ready <span class="pl-k">**</span>
+INFO:root: <span class="pl-k">**</span> 详细位置获取经纬度开始 <span class="pl-k">**</span>
+ 当前经度（通过详细地址获取）：xxx.xxxxxx00000001
+ 当前纬度（通过详细地址获取）：xxx.xxxxxx000000001
+200
+200
+200
+200
+200
+200
+200
+ get <span class="pl-k">if</span> seccess 200
+200
+INFO:root: all ready to start <span class="pl-k">!</span>
+ get id xxxxx
+ get Class xxx
+ get email xxx
+ get sex x
+ get telephone 189<span class="pl-k">****</span>6699
+ get sdept xxxx
+ get specialty 网络xxxxx
+ get address 江苏省xxxxxxxxxxxxxxxx
+INFO:root: 信息全部获取完毕
+INFO:root: <span class="pl-k">**</span> Wait five seconds <span class="pl-k">**</span>
+ push data {<span class="pl-s"><span class="pl-pds">"</span>code<span class="pl-pds">"</span></span>:4402,<span class="pl-s"><span class="pl-pds">"</span>msg<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>今日健康信息已上报，请勿重复提交!!<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>meta<span class="pl-pds">"</span></span>:{<span class="pl-s"><span class="pl-pds">"</span>repeatFields<span class="pl-pds">"</span></span>:{<span class="pl-s"><span class="pl-pds">"</span>_widget_1581559576367<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>18***********4<span class="pl-pds">"</span></span>}}}</pre>
 
 # **end**  
 仅限个人测试学习python，请在下载后24小时内删除。本人不提供任何形式的技术支持!
