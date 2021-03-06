@@ -49,7 +49,7 @@ INFO:root: all ready to start <span class="pl-k">!</span>
  get address 江苏省xxxxxxxxxxxxxxxx
 INFO:root: 信息全部获取完毕
 INFO:root: <span class="pl-k">**</span> Wait five seconds <span class="pl-k">**</span>
- push data {<span class="pl-s"><span class="pl-pds">"</span>code<span class="pl-pds">"</span></span>:4402,<span class="pl-s"><span class="pl-pds">"</span>msg<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>今日健康信息已上报，请勿重复提交!!<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>meta<span class="pl-pds">"</span></span>:{<span class="pl-s"><span class="pl-pds">"</span>repeatFields<span class="pl-pds">"</span></span>:{<span class="pl-s"><span class="pl-pds">"</span>_widget_1581559576367<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>18***********4<span class="pl-pds">"</span></span>}}}</pre>
+ push data {<span class="pl-s"><span class="pl-pds">"</span>code<span class="pl-pds">"</span></span>:4402,<span class="pl-s"><span class="pl-pds">"</span>msg<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>今日健康信息已上报，请勿重复提交!!<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>meta<span class="pl-pds">"</span></span>:{<span class="pl-s"><span class="pl-pds">"</span>repeatFields<span class="pl-pds">"</span></span>}}</pre>
 
 # **end**  
 仅限个人测试学习python，请在下载后24小时内删除。本人不提供任何形式的技术支持!
