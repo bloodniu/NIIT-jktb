@@ -535,6 +535,22 @@ if __name__ == '__main__':
                 "data": "正常",
                 "visible": 'true'
             },
+            "_widget_1647592503282": {
+                "data": "仙林校区",                                 #2022/3/25
+                "visible": 'true',
+            },
+            "_widget_1647592503198": {
+                "data": "在校",
+                "visible": 'true',
+            },
+            "_widget_1647694864428": {
+                "data": "是",
+                "visible": 'true',
+            },
+            "_widget_1633595107195": {
+                "data": "是，已完成",
+                "visible": 'true',
+            },
             "_widget_1582448368936": {
                 "data": {"province":Province,
                          "city": City,
